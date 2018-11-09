@@ -1,6 +1,6 @@
 {
   "name": "simple-react-mathjax",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Put a description here",
   "main": "build/index.js",
   "peerDependencies": {
