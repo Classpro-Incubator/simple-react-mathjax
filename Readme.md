@@ -33,7 +33,7 @@ Import the package and Wrap your components with Mathjax.
 ```js
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import MathJax from 'react-mathjax-preview'
+import MathJax from 'simple-react-mathjax'
 
 class Demo extends Component {
   constructor(props) {
