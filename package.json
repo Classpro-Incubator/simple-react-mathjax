@@ -1,6 +1,6 @@
 {
   "name": "simple-react-mathjax",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Put a description here",
   "main": "build/index.js",
   "peerDependencies": {
@@ -26,5 +26,9 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikilarigela/simple-react-mathjax"
   }
 }
