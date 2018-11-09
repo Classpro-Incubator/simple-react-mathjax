@@ -32,7 +32,6 @@ Import the package and Wrap your components with Mathjax.
 
 ```js
 import React, {Component} from 'react'
-import {render} from 'react-dom'
 import MathJax from 'simple-react-mathjax'
 
 class Demo extends Component {
@@ -42,7 +41,7 @@ class Demo extends Component {
       math: tex
     }
   render() {
-    return <Mathjax><div>$sec \\theta / cosec \\theta$</div></Mathjax> />
+    return <MathJax><div>$sec \\theta / cosec \\theta$</div></MathJax> />
   }
 }
 ```
