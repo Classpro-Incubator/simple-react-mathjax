@@ -36,7 +36,7 @@ import MathJax from 'simple-react-mathjax'
 
 class Demo extends Component {
   render() {
-    return <MathJax><div>$sec \\theta / cosec \\theta$</div></MathJax> />
+    return <MathJax><div>$sec \\theta / cosec \\theta$</div></MathJax>
   }
 }
 ```
