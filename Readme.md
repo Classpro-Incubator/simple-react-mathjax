@@ -35,11 +35,6 @@ import React, {Component} from 'react'
 import MathJax from 'simple-react-mathjax'
 
 class Demo extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      math: tex
-    }
   render() {
     return <MathJax><div>$sec \\theta / cosec \\theta$</div></MathJax> />
   }
