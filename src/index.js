@@ -24,7 +24,7 @@ class MathJax extends Component {
 
   render() {
     return (
-      <div className="App" ref={this.node}>
+      <div ref={this.node}>
         {this.props.children}
       </div>
     );
